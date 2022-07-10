@@ -503,10 +503,8 @@ section {
 }
 
 /* Set the size of the div element that contains the map */
-#map {
-  margin: auto;
-  height: 400px;
-  width: 600px;
+.maps {
+  text-align: center;
   margin-bottom: 50px;
 }
 
