@@ -252,8 +252,24 @@ section {
   font-size: 4rem;
   margin-top: .5rem;
 }
-
+.slide-read-more{
+  overflow:hidden;
+}
+.slide-read-more-button{
+  cursor: pointer;
+  text-align: right;
+  margin-top: 8px;
+  color: #488A8A;
+  display: none;
+}
 .about .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+#more {display: none;}
+.about .content p .content_read-more{
   padding: 1rem 0;
   font-size: 1.4rem;
   color: #aaa;
@@ -328,7 +344,8 @@ section {
   position: relative;
   width: 100%;
   overflow: hidden;
-  
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .featured-item img{
@@ -361,10 +378,13 @@ section {
           transform: translateY(68%);
 
 }
+
+
+
 .featured-item-content span{
   font-size: 1.2rem;
   display: block;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
   text-transform: capitalize;
   font-size: medium;
   padding-bottom: 5px;
@@ -373,7 +393,7 @@ section {
 .featured-item-content .text{
   color: #fff;
 
-  font-size: medium;
+  font-size: small;
 }
 .featured-item:hover .featured-item-content{
   transform: translateY(0);
